@@ -12,8 +12,8 @@ Enable GitHub Pages: repo **Settings → Pages → Build and deployment → Depl
 
 - All **409 questions** from the public-domain **2026–2030 NCVEC Technician** question pool (with February 19, 2026 errata).
 - All **three diagram figures** bundled offline (as embedded image data in `figures.js`).
-- Ten topic modules with introductory mini lessons.
-- Ten-question quizzes with instant correct-answer feedback.
+- Ten topic modules containing **35 in-depth guided chapters**—one for each official exam group—with multi-section explanations, worked examples, three interactive knowledge-check questions each, and a complete 10–14-question group drill.
+- Ten-question mixed module quizzes plus complete question-group mastery quizzes with contextual feedback and 80% passing targets.
 - Realistic **35-question practice exams**, exactly one question per official group, passing at 26 correct.
 - Spaced-repetition flashcards with **Again / Hard / Good / Easy** rating, due dates, and module selection.
 - Device-local progress, study streaks, practice exam history, and JSON progress export/import.
@@ -33,6 +33,10 @@ Serve the folder over localhost: `python -m http.server 8000`. Visit `http://loc
 - Machine-readable question set and diagrams: https://github.com/russolsen/ham_radio_question_pool/tree/main/technician-2026-2030
 
 The NCVEC Question Pool Committee released the pool into the public domain. HAM Lab is an independent learning project, not affiliated with FCC, NCVEC, or ARRL. Introductory lessons are **not** an exhaustive substitute for studying the full question pool and FCC Part 97.
+
+## Learning progression
+
+Select **Learn → Module → Chapter**. Chapters contain a full concept guide, an interactive worked example, three real-question knowledge checks, and a drill that covers **every question from that exam group**. Chapters are marked read after completing the checks. Exam groups are marked mastered after scoring 80% or better on a full question-group drill. The home screen shows chapters read, not modules visited.
 
 ## Next iterations
 
