@@ -12,7 +12,7 @@ Enable GitHub Pages: repo **Settings → Pages → Build and deployment → Depl
 
 - All **409 questions** from the public-domain **2026–2030 NCVEC Technician** question pool (with February 19, 2026 errata).
 - All **three diagram figures** bundled offline (as embedded image data in `figures.js`).
-- Ten topic modules containing **35 in-depth guided chapters**—one for each official exam group—with multi-section explanations, worked examples, three interactive knowledge-check questions each, and a complete 10–14-question group drill.
+- Ten topic modules containing **35 in-depth guided chapters**—one for each official exam group—with multi-section explanations, worked examples, hands-on calculation labs in applicable chapters, three interactive knowledge-check questions each, and a complete 10–14-question group drill.
 - Ten-question mixed module quizzes plus complete question-group mastery quizzes with contextual feedback and 80% passing targets.
 - Realistic **35-question practice exams**, exactly one question per official group, passing at 26 correct.
 - Spaced-repetition flashcards with **Again / Hard / Good / Easy** rating, due dates, and module selection.
