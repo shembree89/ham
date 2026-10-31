@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "HAM Lab — Technician License Prep",
+  "short_name": "HAM Lab",
+  "description": "Offline amateur radio Technician exam study: lessons, smart flashcards, practice quizzes and mock exams.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#09121e",
+  "theme_color": "#0c1826",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
