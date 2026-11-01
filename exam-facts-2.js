@@ -37,7 +37,7 @@ T5A:[
 ["Glass is an insulator","**Glass** is a good electrical insulator under ordinary conditions; it resists current compared with metallic conductors."],
 ["Alternating current reverses","**AC** periodically alternates direction and polarity, unlike steady-polarity DC from a battery."],
 ["Power is energy per time","**Power** measures the rate of electrical energy use: 1 watt is 1 joule per second."],
-["Resistance opposes current","**Resistance opposes both DC and AC current flow**. In AC circuits there can also be reactive opposition, together called impedance."]
+["Resistance opposes current","Resistance opposes **direct current (DC), alternating current (AC), and radio-frequency (RF) current**. At RF, additional inductive and capacitive effects are accounted for by impedance."]
 ],
 T5B:[
 ["Amperes to milliamperes","The prefix milli means one-thousandth: **1.5 A = 1,500 mA**. Multiply amperes by 1,000."],
@@ -94,7 +94,7 @@ T6A:[
 ["Inductors often look like wire coils","A **coil of wire** is a common physical inductor because the magnetic fields of its turns combine."],
 ["SPDT switches select two paths","A **single-pole double-throw** switch selects between **two circuits** using one common moving contact."],
 ["Figure T-2's switch","In official **Figure T-2, component 3 is a single-pole single-throw (SPST) switch**, with one simple on/off contact pair. Recognize the drawn contacts."],
-["Rechargeable battery families","The battery chemistries listed in the relevant exam choices are **all rechargeable types** (for example, lead-acid, nickel-based and suitable lithium rechargeable cells). Use chemistry-specific chargers."],
+["Rechargeable battery families","**Nickel-metal hydride (NiMH), lithium-ion, and lead-acid** are all rechargeable battery chemistries in the exam choices. Each needs its own compatible charger and charging safeguards."],
 ["Carbon-zinc is primary","Ordinary **carbon-zinc cells are not rechargeable**. Attempting to recharge primary chemistry can cause leakage or rupture."]
 ],
 T6B:[
@@ -108,7 +108,7 @@ T6B:[
 ["What FET stands for","**FET** abbreviates **Field-Effect Transistor**."],
 ["Diode electrodes","The two terminals of a diode are the **anode and cathode**."],
 ["Transistors can amplify power","Transistors can provide **power gain** by using a small input signal to control energy drawn from a power supply."],
-["Gain can describe several ratios","Amplifier **gain** may describe increases in signal voltage, current or power, depending on what's being measured. Often expressed in decibels."],
+["Gain can describe several ratios","An amplifier's **gain** can compare **output versus input voltage**, **output versus input current**, or **output versus input power**. All three ratios may be valid; always know which one is measured."],
 ["BJT terminal names","A bipolar junction transistor has **emitter, base and collector** terminals."]
 ],
 T6C:[
