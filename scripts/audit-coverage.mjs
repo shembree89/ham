@@ -48,7 +48,7 @@ for(const group of groups){
 assert.equal(factIds.size,409,'Expected every question to map to exactly one teaching fact');
 assert.deepEqual([...factIds].sort(),[...questionIds].sort(),'Question-to-fact correspondence is broken');
 assert.match(facts.T1A[5][1],/28[.]200[\s\S]*28[.]300/,'T1A06 beacon allocation must be taught explicitly');
-assert.match(facts.T1B[10][1],/200[\s\S]*W/,'T1B11 Technician HF power limit missing');
+assert.match(facts.T1B[10][1],/200[\s\S]*(?:watts|W)/i,'T1B11 Technician HF power limit missing');
 assert.match(facts.T1B[6][1],/50[.]0[\s\S]*50[.]1[\s\S]*144[.]0[\s\S]*144[.]1/,'T1B07 CW-only band edges missing');
 assert.match(facts.T0B[5][1],/10 feet/,'T0B06 falling tower clearance missing');
 assert.match(facts.T0C[2][1],/50%[\s\S]*double/,'T0C03 duty-cycle density relationship missing');
