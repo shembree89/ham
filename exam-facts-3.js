@@ -15,14 +15,14 @@ T7A:[
 T7B:[
 ["Over-deviation: move back from mic","If FM audio is over-deviating, **talk farther away from the microphone** or reduce mic gain, lowering excessive modulation."],
 ["Broadcast receiver overload","A broadcast AM/FM radio may unintentionally receive amateur signals if its front end **cannot reject strong out-of-band RF**. This is a receiver susceptibility issue."],
-["Several things cause RFI","RF interference may arise from **spurious transmitter emissions, fundamental overload or unwanted mixing/coupling**. Don't assume every complaint means a faulty ham transmitter."],
+["Several things cause RFI","All three may cause radio-frequency interference: **fundamental overload** of a nearby receiver, **harmonics** at multiples of a transmit frequency, and unintended **spurious emissions**."],
 ["High SWR reduces transmitter power","High **SWR** may cause a solid-state transceiver to automatically reduce RF output to protect its amplifier devices."],
 ["Filter at the affected receiver","An appropriate filter at the **affected receiver's antenna input** can block the unwanted ham signal while passing the desired broadcast channel."],
 ["Handle neighbor complaints constructively","First confirm your station operates properly and doesn't interfere with your own receiver tuned to the same channel. Then investigate external wiring and receiver susceptibility cooperatively."],
 ["Broadcast-band rejection","A **band-reject filter** at a 2-meter receiver can reduce overload from a nearby powerful commercial FM broadcast station."],
-["RFI originating in a neighbor's home","If a neighbor's device causes interference, **coordinate politely, verify the source and use appropriate mitigation or reporting channels**. Multiple steps can be appropriate."],
+["RFI originating in a neighbor's home","When a neighbor's device interferes with your ham station, **work together to find the source**, **politely explain FCC interference rules**, and **confirm your own station meets good amateur practice**. Cooperative diagnosis comes first."],
 ["Cable-TV coax connections","When cable-TV interference is reported, check that **all TV-feed-line coax connectors are correctly installed** before more complex fixes; leakage often comes from poor connections."],
-["Several causes of bad repeater audio","Distorted or unintelligible FM repeater audio can have **multiple causes**, including excessive deviation, overdriven mic gain and RF feedback. Check settings and installation."],
+["Several causes of bad repeater audio","Unreadable FM repeater audio may result from the transmitter being **slightly off frequency**, talking **too loudly or too close to the microphone**, or being in a **bad RF location** with multipath or weak coverage."],
 ["Choke out RF on mic cables","A clip-on **ferrite choke on the microphone cable** can reduce unwanted RF feedback into transmitter audio circuits and eliminate distortion."]
 ],
 T7C:[
@@ -68,8 +68,8 @@ T8A:[
 T8B:[
 ["Satellite telemetry","An amateur satellite beacon often sends **health and status** data, such as battery voltage, temperature and operating conditions."],
 ["Excessive satellite ERP blocks others","Too much **effective radiated power** on a shared satellite uplink can overload the transponder and **block access for other users**."],
-["Satellite trackers predict passes","Tracking software can provide multiple outputs such as **position, azimuth/elevation and times of passes** using known orbital data and station location."],
-["Satellites support several modes","Amateur satellites can use **FM, SSB/CW and digital or packet modes**, depending on the spacecraft and transponder."],
+["Satellite trackers predict passes","Satellite tracking programs can show **live ground-track maps**, the **time, azimuth and elevation** for rise/peak/set of a pass, and **apparent receive frequencies including Doppler shift**. All three are standard functions."],
+["Satellites support several modes","Amateur satellites commonly relay **SSB voice**, **FM voice**, and **CW/data** signals, depending on the satellite transponder. All three examples are legitimate satellite modes."],
 ["Beacon broadcasts satellite status","A **satellite beacon** is a continuous or regular transmission carrying the spacecraft's identifying or status information."],
 ["Keplerian elements feed orbital tracking","**Keplerian orbital elements** (often supplied as TLE data) are inputs to satellite-tracking software, along with location and time."],
 ["Doppler is relative-motion frequency change","Satellite **Doppler shift** is an observed change in frequency caused by relative motion between the spacecraft and the Earth station."],
@@ -93,16 +93,16 @@ T8C:[
 ["Gateway bridges radio and internet","An amateur radio **gateway** connects radio users or stations to an internet or digital network."]
 ],
 T8D:[
-["More than one mode is digital","The listed examples of **digital communication modes** in the exam all qualify; 'digital' means data conveyed using discrete encoded symbols."],
+["More than one mode is digital","**Packet radio**, **IEEE 802.11 (Wi-Fi networking)**, and **FT8** are all digital communications modes or digital radio techniques used by amateurs under suitable privileges."],
 ["FT8 supports very weak signals","**FT8** is a computer-based digital mode designed to decode signals at **low signal-to-noise ratios**."],
-["APRS can send many data types","**APRS** transmits position, short messages, telemetry and other information, not just GPS coordinates."],
+["APRS can send many data types","APRS can carry **GPS position data**, **short text messages**, and **weather-station data**, as well as telemetry. It is a general short-data reporting system, not merely position tracking."],
 ["NTSC is analog fast-scan TV","**NTSC** is an **analog fast-scan color television** signal format, not a digital data protocol."],
 ["APRS provides map-based tactical data","APRS can show **real-time position and tactical digital communications on a map**, helpful for mobile stations or event operations."],
 ["PSK means phase-shift keying","**PSK (Phase Shift Keying)** encodes digital information by changing a carrier's phase."],
 ["DMR time slots","**DMR** can time-multiplex **two digital voice streams** on one **12.5 kHz repeater channel** using two time slots."],
-["Packet data contains several fields","Packet-radio frames can carry **addresses, payload data and error-control information**. The exam's multiple listed items are all part of packet transmissions."],
+["Packet data contains several fields","Packet radio can carry an **error-detecting checksum**, a **destination-call-sign header**, and **automatic repeat requests (ARQ)** when messages have errors. All three support reliable addressed data transfer."],
 ["CW means Morse telegraphy","**CW** is another name for Morse-code radiotelegraphy using a keyed continuous-wave RF carrier."],
-["WSJT-X supports several activities","WSJT-X software supports multiple weak-signal activities and modes, including **FT8, other structured digital contacts and propagation experiments**."],
+["WSJT-X supports several activities","WSJT-X supports **Earth–Moon–Earth (EME) contacts**, **weak-signal propagation-beacon activities**, and **meteor-scatter communication**, as well as FT8 and other weak-signal modes."],
 ["ARQ requests retransmission","**Automatic Repeat reQuest (ARQ)** detects receiving errors and requests that missing/corrupted information be retransmitted."],
 ["Amateur mesh networks","An amateur-radio **mesh network** may use commercially available Wi-Fi equipment running **modified firmware** to create interconnected packet-radio links."]
 ],
@@ -120,14 +120,14 @@ T9A:[
 ["Antenna gain is directional comparison","**Antenna gain** means increased signal strength in a given direction compared to a reference antenna; it redistributes energy rather than creating power."]
 ],
 T9B:[
-["Weatherproof all outdoor connectors","Outdoor coax joints and connectors of several common types require proper **weatherproofing**. Moisture intrusion can destroy performance."],
+["Weatherproof all outdoor connectors","Outdoor **PL-259, BNC and Type N coax connectors** all require weatherproofing to keep moisture out. Use compatible sealing techniques for the specific connector and cable."],
 ["50-ohm coax is common","Most amateur radio transceivers and coaxial feed lines use nominal **50-ohm characteristic impedance**."],
 ["Why coax is popular","Coax is **easy to install and relatively tolerant of routing conditions**; unlike open-wire line it doesn't need special spacing from most nearby objects."],
 ["An antenna tuner matches impedance","An **antenna tuner** matches the antenna system's impedance as seen at the transceiver to its output impedance. It cannot eliminate actual feed-line losses."],
 ["Coax loss rises with frequency","As signal frequency increases, coaxial-cable attenuation generally **increases**, especially for long thin runs."],
 ["Type N above 400 MHz","For RF frequencies **above 400 MHz**, **Type N** connectors are a better high-frequency choice than many older PL-259 style connectors."],
 ["PL-259 is common at HF/VHF","**PL-259** connectors are widely used on HF and VHF amateur equipment, though connector losses and reliability matter at higher bands."],
-["Several mechanisms cause coax loss","Coax attenuation can arise from **conductor resistance, dielectric loss and other construction/condition factors**; more than one mechanism contributes."],
+["Several mechanisms cause coax loss","Coaxial feed-line loss can increase because of **water entering connectors**, **high SWR causing more loss in a lossy line**, and **additional connectors or adapters**. Keep runs dry, well matched and mechanically sound."],
 ["Loose connections cause intermittent SWR","A **loose antenna or feed-line connection** can cause SWR to change erratically when a cable moves or heats."],
 ["RG-213 has less loss than RG-58","At the same frequency and similar length, thicker **RG-213** generally has less attenuation than thinner **RG-58**."],
 ["Air-insulated hardline is low-loss","Among typical choices, **air-insulated hardline** offers the lowest feed-line loss; it is less flexible than ordinary coax."],
